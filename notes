@@ -1,0 +1,37 @@
+Phone-app styled application
+
+Mainwindow is container holding rest of the "views"
+    Menu
+        views
+        quit(exit application)
+    Statusbar
+        information
+
+"Home-view", start view
+    Welcome page, bla bla bla
+    History? Last view
+
+"Area-view"
+    Tips
+    Warnings
+    Weather over area
+    Map over all stages in area
+    Distance for every stage
+    Completed stages (from codes entered)
+
+    "Selected Stage view"
+        Local weather
+        Map
+        Distance
+        Enter code/scan code "checkpoints"
+
+When making a choice to go somewhere, replace active view with new view.
+
+Todo How to handle the view not showing? so not to take up mem.
+    disable, hide, delete, stop
+
+Todo
+    Table structure, what should the contain?
+    Database, item stored in database, loading resources to view.
+    Adding more locations(Areas) in database should make them accessible in app
+    Storing and loading of maps(img)
