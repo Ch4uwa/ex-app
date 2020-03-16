@@ -27,13 +27,23 @@ Mainwindow is container holding rest of the "views"
 
 When making a choice to go somewhere, replace active view with new view.
 
+
+Todo Setup threading
+    Requests to API
+
 Todo How to handle the view not showing? so not to take up mem.
     disable, hide, delete, stop
 
+
+Todo Splash screen
+
+
+Database
+What is the purpose?
+Data by stage
+Why not keep data directly inside project?
 Todo
     Table structure, what should the contain?
     Database, item stored in database, loading resources to view.
     Adding more locations(Areas) in database should make them accessible in app
     Storing and loading of maps(img)
-
-Todo Splash screen
