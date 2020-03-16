@@ -10,6 +10,7 @@ import sys
 # Todo Move .env file into db
 try:
     import requests
+
     from dotenv import load_dotenv
     load_dotenv()
 except ImportError as import_error:
