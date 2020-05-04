@@ -22,7 +22,7 @@ class Ui_Form(object):
             Form.setObjectName(u"Form")
         Form.resize(345, 547)
         icon = QIcon()
-        icon.addFile(u"../res/img/jk_troll.png", QSize(), QIcon.Normal, QIcon.Off)
+        icon.addFile(u"../res/icon/jk_troll.png", QSize(), QIcon.Normal, QIcon.Off)
         Form.setWindowIcon(icon)
         self.actionPage_1 = QAction(Form)
         self.actionPage_1.setObjectName(u"actionPage_1")

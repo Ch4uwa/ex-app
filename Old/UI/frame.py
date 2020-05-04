@@ -18,7 +18,7 @@ class MainFrame(QFrame):
         self.setFixedSize(360, 720)
 
         try:
-            self.setWindowIcon(QIcon(QPixmap('../res/img/jk_troll.png')))
+            self.setWindowIcon(QIcon(QPixmap('../MyApp/res/icon/jk_troll.png')))
         except Exception as e:
             print(e)
 

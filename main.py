@@ -7,8 +7,8 @@ import sys
 
 from PySide2.QtWidgets import QApplication
 
-from UI.mainwindow import MainWindow
-from UI.expensesWindow import Widget
+from Old.UI import MainWindow
+from Old.UI import Widget
 
 
 def run():

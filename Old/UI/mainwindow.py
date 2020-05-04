@@ -30,7 +30,7 @@ class MainWindow(QMainWindow):
         QApplication.quit()
 
     def set_icon(self):
-        app_icon = QIcon("../res/img/jk_troll24x24.png")
+        app_icon = QIcon("../MyApp/res/icon/jk_troll24x24.png")
         try:
             self.setWindowIcon(app_icon)
         except Exception as e:
